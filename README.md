@@ -1,3 +1,4 @@
+<<<<<<< main
 # gikiolx
 A semester project for DataBase Management Systems. This is an online buy/sell app for GIK Institute.
 
@@ -24,3 +25,8 @@ Relationships:
 (user <-> product)
 User to product: Optional (zero-to-Many)
 Product to User: Mandatory (one-to-one)
+=======
+# gikibazar
+A semester project for DataBase Management Systems. 
+This is an online buy/sell app for GIK Institute.
+>>>>>>> main
