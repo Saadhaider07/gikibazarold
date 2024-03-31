@@ -24,3 +24,7 @@ Relationships:
 (user <-> product)
 User to product: Optional (zero-to-Many)
 Product to User: Mandatory (one-to-one)
+
+3) created Figma Design
+   ![image](https://github.com/Saadhaider07/gikibazar/assets/162680430/180da233-47a3-40aa-85ff-c158cad50561)
+
