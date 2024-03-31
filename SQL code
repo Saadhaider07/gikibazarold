@@ -1,0 +1,16 @@
+--SQL CODE for initial ER diagram
+
+--creating users entity
+create table users(User_name CHAR(30) Not Null,
+				  User_id INT Primary Key,
+				  Email VARCHAR(255) Not Null,
+				  Product_Id INT,
+				 Constraint fkproductid foreign key (Product_id) references Product(Product_id));
+--creating product entity				 
+CREATE TABLE product(Product_id INT PRIMARY KEY,
+					User_id INT,
+					Product_name VARCHAR(30) NOT NULL,
+					Upload_date DATE NOT NULL,
+					Price INT NOT NULL);
+--Adding foreign key constraint to product					
+ALTER TABLE product ADD CONSTRAINT fkuserid FOREIGN KEY (User_id) REFERENCES users(User_id); 
